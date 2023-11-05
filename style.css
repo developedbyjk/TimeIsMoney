@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Space Grotesk', sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px 0px 10px 0px;
+}
+#tag{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: italic;
+}
+
+
+.container {
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: antiquewhite;
+    transform: rotate(180deg);
+    justify-content: start;
+}
+
+.note{
+    /* margin: 10px;
+    width: 40px;
+    height: 20px;
+    background-color: green;
+     */
+     font-size: 2rem;
+    border-radius: 2px;
+    transform: rotate(180deg);
+}
